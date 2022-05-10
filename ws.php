@@ -1,3 +1,4 @@
+#!/usr/bin/php -q
 <?php
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -65,7 +66,7 @@ if ($resultado->num_rows > 0) {
 
 $payload         = json_encode($reponseData);
 
-print_r($payload);
+// print_r($payload);
 
 $curl = curl_init($apiUrl);
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
