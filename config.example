@@ -1,0 +1,12 @@
+<?php
+
+$dbHost     = "host";
+$dbUser     = "gts";
+$dbPass     = "password";
+$dbName     = "gts";
+$dbPort     = 3306;
+$table      = "Sutran";
+$limit      = 100;
+
+$apiUrl     = "https://srt.sutran.gob.pe:9090/api/v1.0/transmisiones";
+$token      = "";
