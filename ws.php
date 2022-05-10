@@ -73,7 +73,7 @@ curl_setopt($curl, CURLINFO_HEADER_OUT, true);
 curl_setopt($curl, CURLOPT_POST, true);
 curl_setopt($curl, CURLOPT_POSTFIELDS, $payload);
 // curl_setopt($curl, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_2TLS);
-curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
 curl_setopt(
     $curl,
     CURLOPT_HTTPHEADER,
