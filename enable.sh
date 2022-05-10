@@ -1,1 +1,1 @@
-mv config.example config.php
+cp config.example config.php
